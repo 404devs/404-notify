@@ -1,6 +1,6 @@
 # FiveM Script (ESX): Notification!
 
-> Notification Script / custom UI / by 404devs
+> Notification Script / Default UI / By 404devs
 
 ---
 
