@@ -1,7 +1,5 @@
 # Skrypt FiveM (ESX): Notification!
 
-![Preview](https://chuj.pl)
-
 > Notification Script / custom UI / by 404devs
 
 ---
