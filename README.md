@@ -1,4 +1,3 @@
-Sure, here's the translated `README.md` in English:
 # FiveM Script (ESX): Notification!
 
 > Notification Script / custom UI / by 404devs
