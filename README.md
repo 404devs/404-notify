@@ -1,6 +1,6 @@
-# 404-Notify
+# Skrypt FiveM (ESX): Notification!
 
-![Preview](link_do_obrazka.jpg)
+![Preview](https://chuj.pl)
 
 > Notification Script / custom UI / by 404devs
 
@@ -41,7 +41,7 @@
 Możesz wysyłać powiadomienia z poziomu serwera poprzez skrypty Lua, na przykład:
 
 ```lua
-TriggerClientEvent('esx:showNotification', source, message)
+TriggerClientEvent('esx:showNotification', source, message, 5000)
 ```
 
 ## Znane problemy
@@ -54,5 +54,5 @@ Jeśli znajdziesz błąd lub masz sugestie dotyczące ulepszeń, zgłoś je w [s
 
 ## Autorzy
 
-- Skrypt: [notaskun](link_do_profilu)
-- Design: [victoria](link_do_profilu)
+- Skrypt: [notaskun](https://github.com/skunpro)
+- Design: [victoria](https://github.com/deryys)
