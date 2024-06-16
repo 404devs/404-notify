@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #fbff00;
+}
+
+#notify-container {
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    transform: translateX(5%);
+    width: 300px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.notification {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    animation: slide 0.5s ease forwards;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@keyframes slide {
+    from {
+        right: -30%;
+    }
+    to {
+        right: 3%;
+        transform: translateX(5%);
+    }
+}
+
+.notification .icon {
+    font-size: 1.8rem;
+    margin-left: 10px;
+    min-width: 24px;
+    min-height: 24px;
+    color: var(--main-color);
+    animation: shake-bottom 1.5s ease infinite both;
+}
+
+@keyframes shake-bottom {
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 100%;
+    }
+    10% {
+        transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+        transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+        transform: rotate(4deg);
+    }
+    80% {
+        transform: rotate(-2deg);
+    }
+    90% {
+        transform: rotate(2deg);
+    }
+}
+
+.notification .content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification .number {
+    font-weight: bold;
+    font-size: 0.2rem;
+    font-family: Poppins, sans-serif;
+}
+
+.notification .message {
+    /* position: absolute; */
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding: 50px;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+}
