@@ -6,7 +6,7 @@
 
 ## Opis
 
-404-Notify jest skryptem umożliwiającym wyświetlanie powiadomień w grze GTA V (FiveM). Skrypt pozwala na wysyłanie różnych typów powiadomień (success, info, warning, danger) oraz dostosowanie ich wyglądu i długości wyświetlania.
+404-Notify jest skryptem umożliwiającym wyświetlanie powiadomień w grze GTA V (FiveM). Skrypt pozwala na wysyłanie długości wyświetlania.
 
 ## Funkcje
 
