@@ -1,56 +1,57 @@
-# Skrypt FiveM (ESX): Notification!
+Sure, here's the translated `README.md` in English:
+# FiveM Script (ESX): Notification!
 
 > Notification Script / custom UI / by 404devs
 
 ---
 
-## Opis
+## Description
 
-404-Notify jest skryptem umożliwiającym wyświetlanie powiadomień w grze GTA V (FiveM). Skrypt pozwala na wysyłanie długości wyświetlania.
+404-Notify is a script for displaying notifications in the game GTA V (FiveM). The script allows for displaying notifications with customizable duration.
 
-## Funkcje
+## Features
 
-- Wyświetlanie powiadomień w grze GTA V (FiveM)
-- Możliwość ustawienia czasu wyświetlania powiadomienia
-- Dźwiękowy efekt powiadomienia
+- Display notifications in GTA V (FiveM)
+- Ability to set notification display duration
+- Sound effect for notifications
 
-## Instalacja
+## Installation
 
-1. **Pobierz repozytorium**
+1. **Clone the repository**
 
-    Sklonuj repozytorium na swój lokalny komputer:
+    Clone the repository to your local computer:
 
     ```bash
     git clone https://github.com/skunpro/404-notify.git
     ```
 
-2. **Dodaj do zasobów FiveM**
+2. **Add to FiveM resources**
 
-    Przenieś folder `404-notify` do katalogu zasobów Twojego serwera FiveM.
+    Move the `404-notify` folder into the resources directory of your FiveM server.
 
-3. **Konfiguracja**
+3. **Configuration**
 
-    Upewnij się, że skrypt jest poprawnie skonfigurowany w plikach serwera i klienta. Zmodyfikuj ustawienia według własnych potrzeb.
+    Ensure that the script is properly configured in both server and client files. Modify settings according to your needs.
 
-## Użycie
+## Usage
 
-### Wysyłanie powiadomień
+### Sending Notifications
 
-Możesz wysyłać powiadomienia z poziomu serwera poprzez skrypty Lua, na przykład:
+You can send notifications from the server using Lua scripts, for example:
 
 ```lua
 TriggerClientEvent('esx:showNotification', source, message, 5000)
 ```
 
-## Znane problemy
+## Known Issues
 
-- Dźwięk powiadomienia może nie działać poprawnie na niektórych konfiguracjach.
+- The notification sound may not work correctly on some configurations.
 
-## Znaleziono błąd?
+## Found a Bug?
 
-Jeśli znajdziesz błąd lub masz sugestie dotyczące ulepszeń, zgłoś je w [sekcji zgłaszania problemów](https://github.com/skunpro/404-notify/issues).
+If you encounter a bug or have suggestions for improvements, please report them in the [issue tracker](https://github.com/skunpro/404-notify/issues).
 
-## Autorzy
+## Authors
 
-- Skrypt: [notaskun](https://github.com/skunpro)
+- Script: [notaskun](https://github.com/skunpro)
 - Design: [victoria](https://github.com/deryys)
