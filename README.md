@@ -23,7 +23,7 @@
     Clone the repository to your local computer:
 
     ```bash
-    git clone https://github.com/skunpro/404-notify.git
+    git clone https://github.com/404devs/404-notify.git
     ```
 
 2. **Add to FiveM resources**
