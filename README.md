@@ -2,7 +2,7 @@
 
 > Notification Script / Default UI / By 404devs
 
-![Preview](https://streamable.com/s3h6iz?src=player-page-share)
+[Preview](https://streamable.com/s3h6iz)
 
 ---
 
